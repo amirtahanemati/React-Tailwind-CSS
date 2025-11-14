@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- افکت روشنایی -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- علامت <  -->
+  <path d="M80 128 L120 90" stroke="#9BE2FF" stroke-width="12" stroke-linecap="round" filter="url(#glow)"></path>
+  <path d="M80 128 L120 166" stroke="#9BE2FF" stroke-width="12" stroke-linecap="round" filter="url(#glow)"></path>
+
+  <!-- حرف T استیلیزه و مدرن -->
+  <path d="M140 88 H196" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" filter="url(#glow)"></path>
+  <path d="M168 88 V170" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" filter="url(#glow)"></path>
+
+  <!-- علامت />  -->
+  <path d="M200 90 L236 128" stroke="#9BE2FF" stroke-width="12" stroke-linecap="round" filter="url(#glow)"></path>
+  <path d="M200 166 L236 128" stroke="#9BE2FF" stroke-width="12" stroke-linecap="round" filter="url(#glow)"></path>
+
+</svg>
