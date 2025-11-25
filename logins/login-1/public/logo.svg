@@ -1,0 +1,28 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- گرادیانت نورانی دایره -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#BEE3F8" stop-opacity="0.4"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- دایره روشن و خلاقانه با افکت نور -->
+  <circle cx="128" cy="128" r="100" fill="none" stroke="url(#glow)" stroke-width="18"></circle>
+
+  <!-- فرم ترکیبی T + >_ شبیه لوگوی کدنویسی -->
+  <path d="M100 90 H156" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"></path>
+
+  <path d="M128 90 V170" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"></path>
+
+  <!-- نماد خلاقانه <T/> -->
+  <path d="M75 128 L100 110" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"></path>
+
+  <path d="M181 128 L156 110" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"></path>
+
+  <path d="M156 150 L181 128" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"></path>
+
+  <path d="M100 150 L75 128" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"></path>
+
+</svg>
