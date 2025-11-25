@@ -117,7 +117,11 @@ export default function Login() {
         {/* Register link */}
         <p className="text-center mt-6">
         <span style={{ color: "white" }}>حساب کاربری نداری؟ </span>
-        <a href="/register" style={{ color: "#DAA520" }} className="hover:opacity-80 transition">
+        <a
+            href="/register"
+            style={{ color: "#DAA520" }}
+            className="hover:opacity-80 transition"
+        >
             ثبت‌نام کن !
         </a>
         </p>
