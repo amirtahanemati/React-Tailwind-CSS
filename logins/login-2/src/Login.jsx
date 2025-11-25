@@ -131,7 +131,7 @@ export default function LoginNew() {
       return;
     }
     setPhoneError("");
-    setIsOtpVerified(false); // هر بار شروع جدید
+    setIsOtpVerified(false);
     goToStep(2);
     setSeconds(COUNTDOWN_SECONDS);
     setOtpValues(Array(OTP_LENGTH).fill(""));
